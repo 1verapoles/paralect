@@ -1,0 +1,31 @@
+.repocard {
+  min-height: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 100%;
+  background: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 24px 32px;
+  margin-bottom: 20px;
+}
+
+.repocard-title {
+  font-size: 24px;
+  line-height: 29px;
+  color: #0064EB;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.repocard-title:hover {
+  opacity: 0.5;
+}
+
+.repocard-desc {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
